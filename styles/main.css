@@ -25,4 +25,17 @@ img {
 
  body {
      text-align: center;
+     background-image: linear-gradient(to right, red 5%, coral 50%, yellow 90%, white 100%);
  }
+
+ .change:hover {
+    background-color: white;
+    box-sizing: border;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    inline-size: 50px;
+    transition: background-size 0.3s ease;
+    filter: grayscale(1);
+    transition: background-size 0.3s ease;
+}

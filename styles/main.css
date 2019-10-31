@@ -47,5 +47,16 @@ li :hover {
 li a{
     width: 20%;
     background-color: white;
-    padding: 10px;
+    padding: 10px;    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    inline-size: 50px;
+    margin-right: 35px;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
 }
